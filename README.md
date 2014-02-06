@@ -1,12 +1,12 @@
-UDP to MPEG2TS converter
+UDP MPEG2TS stream to MPEG2TS HLS chunks converter
 ===========
 
-This script converts UDP stream into MPEG2TS.
+This script converts UDP MPEG2TS stream into chunked MPEG2TS stream appropriate for HLS.
 Once run, it will listen to port 2000 and will flush the incoming stream into MPEG2TS chunks.
 
 This product is released under MIT license.
 
 
-This is a prototype which was made as part of feature investigate for Nimble Streamer's UDP to HLS transmuxing.
+This is a prototype which was made as part of feature investigate for Nimble Streamer's UDP MPEG2TS to HLS transmuxing.
 
 Please refer to this page for more details regaring Nimble Streamer feature set: https://wmspanel.com/nimble
